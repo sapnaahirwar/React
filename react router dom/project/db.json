@@ -1,0 +1,18 @@
+{
+  "Student": [
+    {
+      "id": "ab60",
+      "rollno": "123",
+      "name": "Sapna ahirwar",
+      "city": "indore",
+      "fees": "54000"
+    },
+    {
+      "id": "bf9c",
+      "rollno": "122",
+      "name": "Anjali ahirwar",
+      "city": "bhopal",
+      "fees": "30000"
+    }
+  ]
+}

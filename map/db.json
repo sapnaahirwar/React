@@ -1,0 +1,7 @@
+{
+    "student":[
+        {"name":"sapna", "course": "AIML" , "city":"Bhopal"},
+        {"name":"hanshu", "course": "CSE" , "city":"Guna"},
+        {"name":"Shaily", "course": "B.com" , "city":"Rajgadh"}
+    ]
+}

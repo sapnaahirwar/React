@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styel.css">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+</head>
+<body>
+    <!-- react is a Javascript library created by facebook to create user interface
+    it is used to make a single page application it allow us to create reusable ui component
+
+    single page application also known as SPA in short is an application that loads only a single document and then document
+    and then updates the body content of single document via javascript APIs -->
+    <div id="root"></div>
+    <script>
+        // let h1 = document.createElement("h1");
+        // h1.textContent = "Hello World! from Javascript";
+        // document.getElementById("root").appendChild(h1);
+        function App(){
+            // return React.createElement("h1",null,"Hello from react");
+            return React.createElement("div",null,React.createElement("h2",{className:"heading"},"hello from react h2"));
+        }
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        root.render(React.createElement(App));
+    </script>
+</body>
+</html>

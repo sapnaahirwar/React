@@ -1,0 +1,32 @@
+{
+  "student": [
+    {
+      "name": "sapna",
+      "course": "AIML",
+      "city": "Bhopal",
+      "id": "a75f"
+    },
+    {
+      "name": "hanshu",
+      "course": "CSE",
+      "city": "Guna",
+      "id": "a345"
+    },
+    {
+      "name": "Shaily",
+      "course": "B.com",
+      "city": "Rajgadh",
+      "id": "b50c"
+    },
+    {
+      "id": "0fe7",
+      "name": "",
+      "age": ""
+    },
+    {
+      "id": "a056",
+      "name": "asdfghj",
+      "age": "wet"
+    }
+  ]
+}
